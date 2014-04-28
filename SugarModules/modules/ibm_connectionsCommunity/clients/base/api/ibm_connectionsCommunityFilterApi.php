@@ -71,6 +71,7 @@ class ibm_connectionsCommunityFilterApi extends FilterApi
             $beans[$key]->members = $item['members_list'];
             $beans[$key]->files = $item['files_list'];
             $beans[$key]->activities = $item['activities_list'];
+            $beans[$key]->logo = 'https://greenhouse.lotus.com/communities/service/html/image?communityUuid=' . $item['id'];
         }
 
         $data = array(

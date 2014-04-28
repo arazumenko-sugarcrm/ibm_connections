@@ -37,11 +37,6 @@ $fields =
             'type' => 'varchar',
             'source' => 'non-db',
         ),
-        'members' => array(
-            'name' => 'members',
-            'type' => 'array',
-            'source' => 'non-db',
-        ),
         'files' => array(
             'name' => 'files',
             'type' => 'array',
@@ -76,11 +71,6 @@ $fields =
         'member_count' => array(
             'name' => 'member_count',
             'type' => 'int',
-            'source' => 'non-db',
-        ),
-        'type' => array(
-            'name' => 'type',
-            'type' => 'varchar',
             'source' => 'non-db',
         ),
         'type' => array(
